@@ -1,0 +1,71 @@
+.container {
+  width: 100%;
+  max-width: 500px;
+  margin: 5% auto;
+  padding: 50px 20px;
+  background-color: hsl(268, 71%, 12%);
+  text-align: center;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+  color: hsl(52, 100%, 62%);
+}
+
+.form-group {
+  margin-bottom: 30px;
+}
+
+textarea {
+  resize: none;
+  width: 90%;
+  height: 200px;
+  font-size: 22px;
+  /* border: 2px solid #3f51b5; */
+  border-radius: 10px;
+  padding: 10px;
+  color: hsl(52, 100%, 62%);
+  background-color: hsl(281, 89%, 26%);
+}
+
+textarea:focus {
+  outline: none;
+  border: 1px solid hsl(52, 100%, 62%);
+}
+/* .btn {
+  background-color: hsl(281, 89%, 26%);
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #1a237e;
+} */
+
+.braille-output {
+  margin-top: 50px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: hsl(52, 100%, 62%);
+}
+.txtArea-output {
+  color: white;
+}
+.txtArea-output:focus {
+  border: 1px solid white;
+}

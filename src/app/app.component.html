@@ -1,0 +1,27 @@
+<div class="container">
+  <h1>Text to Braille Converter</h1>
+  <form>
+    <div class="form-group">
+      <textarea
+        placeholder="Input Text"
+        class="form-control"
+        id="inputText"
+        rows="3"
+        [(ngModel)]="inputText"
+        [ngModelOptions]="{ standalone: true }"
+        (input)="convertToBraille()"
+      ></textarea>
+    </div>
+
+    <!-- <button type="button" class="btn btn-primary" (click)="convertToBraille()">
+      Convert to Braille
+    </button> -->
+  </form>
+  <div class="braille-output">
+    <h2>Braille Translation:</h2>
+
+    <textarea readonly class="txtArea-output" rows="3">{{
+      outputText
+    }}</textarea>
+  </div>
+</div>
